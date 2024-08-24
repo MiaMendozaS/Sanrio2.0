@@ -18,19 +18,18 @@
 
             <nav class="barra_nav" >
                 <ul>
-                    <li><a href="#sobre_sanrio"> SOBRE SANRIO </a></li>
-                    <li><a href="#pers"> PERSONAJES </a></li>
-                    <li><a href="#ver"> DONDE VER </a></li>
-                    <li><a href="#contacto"> CONTACTO </a></li>
+                    <li><a class="letra_barr_nav" tabindex="1" href="#sobre_sanrio"> SOBRE SANRIO </a></li>
+                    <li><a class="letra_barr_nav" tabindex="2" href="#pers"> PERSONAJES </a></li>
+                    <li><a class="letra_barr_nav" tabindex="3" href="#ver"> DONDE VER </a></li>
+                    <li><a class="letra_barr_nav" tabindex="4" href="#contacto"> CONTACTO </a></li>
                 </ul>
                     <!-- Link hacia algo de la misma pagina  -->
                     <!--Se le pone # al link que esta pendiente, nombre de la dirección-->
             </nav>
-
     </header>
-
+    <br>
     <header>
-        <h2 class="titulo" id="sobre_sanrio" > SOBRE SANRIO </h2>
+        <h2 tabindex="5" class="titulo" id="sobre_sanrio" > SOBRE SANRIO </h2>
         <p>
             Sanrio es una compañía japonesa fundada en 1960 por Shintaro Tsuji. Es
        dedicada especialmente  a la fabricación de productos de diseño que ofrece la serie de personajes y licencias, con distribución de productos de papelería, útiles escolares, regalos y accesorios. Actualmente hay más de 400 personajes diferentes creados por Sanrio, y nuevos personajes son constantemente desarrollados y lanzados al público. Sanrio es la empresa japonesa responsable por la creación y licenciamiento de personajes como <b>Hello Kitty</b>. 
@@ -39,39 +38,51 @@
         </p>
  
         <div >
-            <a class="btn_info" href="info_extra.html"> Saber Más Sobre la Hisotia de HELLO KITTY </a>
+            <a class="btn_info" tabindex="6" href="info_extra.html"> Saber Más Sobre la Hisotia de HELLO KITTY </a>
         </div>
 
-
     </header>
-
+    <br>
     <section>
-        <h2 class="Personajes"> PERSONAJES </h2>
-        <p>
-            Sanrio, nos ha regalado un universo lleno de personajes adorables que han cautivado a millones de personas en todo el mundo. Cada uno de estos personajes tiene una personalidad única y encantadora que los hace especiales.
-        </p>
-        <br>
-        <h3 class="personaje" id="pers"> Hello Kitty </h3>
-                <p class="info"> Cumpleaños: 1° de Noviembre
-                    Hello Kitty es una niña alegre y divertida a la que le encanta difundir alegría por todo el mundo. Vive con sus padres y su hermana gemela, Mimmy, en Londres, Inglaterra. Su lema es: "¡Nunca está demás tener muchos amigos!" Por lo tanto, siempre está rodeada de amigos y le encanta hacer nuevas amistades.</p>
-                <br>
-                <h3 class="personaje"> Pompompurin </h3>
-                <p class="info"> Cumpleaños: 16 de Abril
-                    Pompompurin es un cachorrito de Golden Retriever tranquilo que tiene un gran talento para la siesta. Le encanta la frase "vamos a salir" tanto como odia la palabra "quédate". Es amigo de todos los que se encuentra por el camino y sueña con ser realmente grande. Su afición es coleccionar los zapatos de sus dueños y tiene su propio escondite secreto.</p>
-                <br>
-                <h3 class="personaje"> Cinnamoroll </h3>
-                <p class="info"> Cumpleaños: 6 de Marzo
-                    El Cinnamoroll es un cachorro blanco que parece una nube suave. Tiene la cola enroscada como una torta de canela (cinnamon roll) y puede volar moviendo sus enormes orejas. Es la mascota oficial de Café Cinnamon y disfruta de la siesta en el regazo de los clientes.</p>
-                <br>
-                <h3 class="personaje"> My Melody </h3>
-                <p class="info"> Cumpleaños: 18 de Enero
-                    My Melody nació en el bosque de Mary Land. Ella es súper buena onda y se hace amistades fácilmente. Su marca registrada es una hermosa capucha, que su abuela cosió especialmente para ella.</p>
-                <br>
-                <h3 class="personaje"> Kuromi </h3>
-                <p class="info"> Cumpleaños: 31 de Octubre
-                    Kuromi es muy traviesa y siempre causa líos. Detrás de su apariencia radical, es súper femenina. Le encanta escribir en su diario y leer novelas. Su color favorito es el negro. Es amiga de My Melody, pero afronta esta amistad con cierta competencia.</p>
-    </section>
+            <h2 tabindex="7" class="Personajes"> PERSONAJES </h2>
+            <p>
+                Sanrio, nos ha regalado un universo lleno de personajes adorables que han cautivado a millones de personas en todo el mundo. Cada uno de estos personajes tiene una personalidad única y encantadora que los hace especiales.
+            </p>
 
+            <br>
+    <div class="contenedor_img_per" >
+            <!-- HELLO KITTY -->
+                <a class="img_pers" href="hellokitty.html">
+                    <img src="https://www.sanrio.com/cdn/shop/files/ecomm-CHGAL-50TH_367x353px_01-HK_150x.png?v=1706834552" alt="Imagen Hello Kitty">
+                </a>
+            <br>
+            <!-- POMPOMPURIN -->
+                <a class="img_pers" href="pompompurin.html">
+                    <img src="https://www.sanrio.com/cdn/shop/files/ecomm-CHGAL-50TH_367x353px_09-PN_150x.png?v=1706834552" alt="Imagen de Pompompurin">
+                </a>
+
+            <br>
+            <!-- CINNAMOROLL -->
+                <a class="img_pers" href="cinnamoroll.html">
+                    <img src="https://www.sanrio.com/cdn/shop/files/ecomm-CHGAL-50TH_367x353px_07-CN_150x.png?v=1706834552" alt="Imagen Cinnamoroll">
+                </a>
+
+            <br>
+            <!-- MY MELODY -->
+                <a class="img_pers" href="mymelody.html">
+                    <img src="https://www.sanrio.com/cdn/shop/files/ecomm-CHGAL-50TH_367x353px_02-MM_150x.png?v=1706834553" alt="Imagen de My Melody">
+                </a>
+            <br>
+            <!-- KUROMI -->
+                <a class="img_pers" href="kuromi.html">
+                    <img src="https://www.sanrio.com/cdn/shop/files/ecomm-CHGAL-50TH_367x353px_03-KU_150x.png?v=1706834552" alt="Imagen de Kuromi">
+                </a>    
+            <!-- KEROPPI -->
+                <a class="img_pers" href="keroppi.html">
+                    <img src="https://www.sanrio.com/cdn/shop/files/ecomm-CHGAL-50TH_367x353px_05-KR_150x.png?v=1706834552" alt="Imagen de Keroppi">
+                </a> 
+        </div>
+    </section>
     <br>
     <section>
         <h2 class="donde_ver" id="ver"> DONDE VER </h2>
@@ -86,7 +97,6 @@
 
 
     </section>
-    
     <br>
     <hr>
     <section>

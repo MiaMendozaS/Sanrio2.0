@@ -20,7 +20,7 @@ body {
     font-family: "Cedarville Cursive", cursive;
 }
 
-ul{
+ul {
     display: flex;
     justify-content: space-evenly;
     list-style: none;
@@ -28,21 +28,32 @@ ul{
     padding: 15px 0px;
 }
 
-a {
+.letra_barr_nav {
+    color: aliceblue;
     text-decoration: none;
-    color: antiquewhite;
 }
-
-
-.edu-vic-wa-nt-<beginner-uniquifier> {
-    font-family: "Edu VIC WA NT Beginner", cursive;
-  }
-  
+a {
+    color: maroon;
+    text-decoration: none;
+}
 
 .btn_info {
     color: rgb(175, 42, 69);
     font-size: small;
     font-family: "Edu VIC WA NT Beginner";
+}
+
+.edu-vic-wa-nt-<beginner-uniquifier> {
+    font-family: "Edu VIC WA NT Beginner", cursive;
+  }
+  
+.img_pers {
+    margin: 0px 10px;
+} 
+
+.contenedor_img_per {
+    display: flex;
+    justify-content: center;
 }
 
 .imagen {
