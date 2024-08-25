@@ -1,14 +1,14 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script:wght@400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap');
-
 
 .imagen_logo {
     text-align: center;                 /* ALINEA EL CONTENEDOR */
 }
 
 .imagen_logo img {                      /* ALINEA LA IMAGEN */
-    width: 150px;
-    height: 40px;
+    height: 40px;      /* largo */
+    width: 150px;       /* ancho */
 }
 
 .cedarville-cursive-regular {
@@ -20,7 +20,7 @@ body {
     font-family: "Cedarville Cursive", cursive;
 }
 
-ul {
+.listas_barra_nav{
     display: flex;
     justify-content: space-evenly;
     list-style: none;
@@ -32,7 +32,8 @@ ul {
     color: aliceblue;
     text-decoration: none;
 }
-a {
+
+.barra_nav {
     color: maroon;
     text-decoration: none;
 }
@@ -56,19 +57,36 @@ a {
     justify-content: center;
 }
 
-.imagen {
-    width: 250px;
-    height: 150px;
+.imagen_you {
+    height: 220px;    /* largo */
+    width: 350px;     /* ancho */   
+}
 
+.contenedor_imagen_you {
+    display: flex;
+    justify-content: center;
 }
 
 .contacto {
     text-align: center;
-    color: grey;
+    color: rgb(101, 7, 7)5, 23, 23);
 }
 
 .imagen_final {
-    text-align: center;
-    width: 150px;
-    height: 40px;
+    height: 80px;
+    width: 1200px;
 }
+
+.contenedor_imagen_final{
+    display: flex;
+    justify-content: center;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
