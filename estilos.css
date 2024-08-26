@@ -3,9 +3,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pompiere&display=swap');
 
+                                                                                                                                    /*             IMG_LOGO             */
 .imagen_logo {
-    margin-top: 5px;
+    margin-top: 20px;
     margin-bottom: 10px;
     text-align: center;                 /* ALINEA EL CONTENEDOR */
 }
@@ -15,35 +19,7 @@
     width: 150px;       /* ancho */
 }
 
-.dancing-script-<uniquifier> {
-    font-family: "Dancing Script", cursive;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-}
-
-body {
-    font-family: "Dancing Script";
-    font-size: x-large;
-    margin: 0px; 
-}
-
-
-/* 
-
-.cedarville-cursive-regular {
-    font-family: "Cedarville Cursive", cursive;
-    font-weight: 400;
-  }
-
-body {
-    font-family: "Cedarville Cursive", cursive;
-}
-*/
-
-/* 
-    display: flex;
-*/
+                                                                                                                                    /*           BARRA_VAVEGACION           */
 
 .barra_nav {
     background-color: #B8DFE6;
@@ -68,11 +44,38 @@ body {
     font-size: xx-large;
 }
 
+                                                                                                                                    /*             BODY             */
+
+
+.dancing-script-<uniquifier> {                               /* LETRA CUERPO */
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+body {
+    font-family: "Dancing Script";
+    font-size: x-large;
+    margin: 0px; 
+}
+
+/* 
+.cedarville-cursive-regular {
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 400;
+  }
+
+body {
+    font-family: "Cedarville Cursive", cursive;
+}
+*/
+
 .contenido {
     margin: 20px 50px; /* CONTENIDO CON MARGENES Y LA BARRA DE NAVEGACION NO */
 }
 
-.edu-vic-wa-nt-<beginner-uniquifier> {
+.edu-vic-wa-nt-<beginner-uniquifier> {          /* LETRA BOTÓN MÁS INFO */
     font-family: "Edu VIC WA NT Beginner", cursive;
   }
   
@@ -82,11 +85,16 @@ body {
     font-family: "Edu VIC WA NT Beginner";
 }
 
+.contenedor_img_per {                               /* CONTENEDOR DE LAS IMAGENES DE LOS PERSONAJES  */
+    display: flex;
+    justify-content: center;
+}
+
 .img_pers {
     margin: 0px 10px;
 } 
 
-.contenedor_img_per {
+.contenedor_imagen_you {                             /* CONTENEDOR DE LA IMAGEN DE YOUTUBE_SANRIO  */
     display: flex;
     justify-content: center;
 }
@@ -94,11 +102,6 @@ body {
 .imagen_you {
     height: 220px;    /* largo */
     width: 350px;     /* ancho */   
-}
-
-.contenedor_imagen_you {
-    display: flex;
-    justify-content: center;
 }
 
 .contacto {
@@ -117,10 +120,16 @@ body {
     width: 1200px;
 }
 
+
 * {
-    padding: 0;     /* Relleno - "se utiliza para controlar el espacio interno entre el borde de un elemento y su contenido. " */
+    padding: 0;     /* Relleno - "se utiliza para controlar el espacio interno entre el borde de un elemento y su contenido. "*/
     list-style: none;    
 }
+
+
+
+
+                                                                                                                                    /*             FOOTER             */
 
 footer {                                               
     padding: 0; /* Relleno - "se utiliza para controlar el espacio interno entre el borde de un elemento y su contenido. " */
@@ -201,3 +210,54 @@ footer {
 .redes_sociales a:hover {
     background-color: #8a70cb;
 }
+
+                                                                                                                                    /*             ARC.KEROPI            */
+
+
+.bton_regreso_inicio {
+    color: #FBB9C5;
+    text-decoration: none;
+}
+
+
+.pompiere-regular {
+    font-family: "Pompiere", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  h1 {
+    font-family: "Pompiere";
+    font-size: 60px;
+  }
+
+.contenedor1 {
+    background-color: gold;
+    border: 1px solid rgb(180, 154, 4);
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.contenedor2 {
+    margin-right: 100px;
+    text-align: center;
+    padding: 0;
+}
+
+.imag_per {
+    height: 220px;
+    width: 200px;
+    margin-right: 100px;
+    /*  padding-right: 200px; */
+}
+.contenedor_img_cen {
+    text-align: center;
+    padding: 0;
+}
+.imagen_amigos {
+    height: 140px;    /* largo */
+    width: 200px;     /* ancho */    
+}
+.
