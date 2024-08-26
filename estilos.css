@@ -308,5 +308,48 @@ h1 {
     width: 350px;
 }
 
+                                                                                                         /*       ARCH. CINNAMOROLL          */ 
+ .contenedor1_c {
+    background-color: rgb(133, 206, 255);
+    border: 1px solid rgb(22, 155, 199);
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.imag_per_c {
+    height: 250px;
+    width: 350px;
+    margin-right: 90px;
+}
+
+.imagen_rey_c {
+    height: 250px;
+    width: 370px;
+}
+
+.contenedor_img_izq1 {
+    display: flex;               /* eestablecer el contenedor como flexbox ???*/
+    align-items: center;         /* Alinea los elementos verticalmente al centro */
+    justify-content: center;
+}
+
+.imagen_amigos_c {
+    height: 300px;               /* altura de la imagen */
+    width: 220px;               /* ancho de la imagen */
+    margin-left: 50px;
+
+}
+
+.texto_amigos_c {
+    max-width: 800px;      /* Ajusta el ancho máximo del texto si es necesario */
+
+}
+
+.img_final_c {
+    height: 500px;               /* altura de la imagen */
+    width: 100%;               /* ancho de la imagen */
+}
 
 
