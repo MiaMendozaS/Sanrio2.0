@@ -30,7 +30,7 @@
 }
 
 .listas_barra_nav{
-    display: flex;
+    display: flex;  /* ACOMODAR LOS ELEMENTOS DE FORMA HORIZONTAL */
     list-style: none;
     justify-content: space-evenly;
     padding: 5px;
@@ -118,16 +118,13 @@ body {
 .imagen_final {
     height: 80px;
     width: 1200px;
+    margin-bottom: 0px;
 }
-
 
 * {
     padding: 0;     /* Relleno - "se utiliza para controlar el espacio interno entre el borde de un elemento y su contenido. "*/
     list-style: none;    
 }
-
-
-
 
                                                                                                                                     /*             FOOTER             */
 
@@ -163,7 +160,6 @@ footer {
     display: flex;                  /* para hacer columnas? */
     flex-wrap: wrap;                /* para q minmimizar la pestaña, se bajen, lista por lista.
                                        al contrario de q no tenga la funcion, solo se amontonará sin moverse*/
-
 }
 
 .footer_links {
@@ -209,6 +205,18 @@ footer {
 
 .redes_sociales a:hover {
     background-color: #8a70cb;
+}
+
+                                                                                                         /*       ARCH. INFO_EXTRA          */ 
+
+.contenedor_img_pers_sanrio {
+    display: flex;  /* PARAB HACER FLEXIBLE LA IMAGEN */
+    justify-content: center;
+}
+
+.img_pers_sanrio {
+    height: 400px;
+    width: 800px;
 }
 
                                                                                                          /*       ARCH. POMPOMPURIN          */ 
