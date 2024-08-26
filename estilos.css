@@ -72,7 +72,7 @@ body {
 */
 
 .contenido {
-    margin: 20px 50px; /* CONTENIDO CON MARGENES Y LA BARRA DE NAVEGACION NO */
+    margin: 20px 60px; /* CONTENIDO CON MARGENES Y LA BARRA DE NAVEGACION NO */
 }
 
 .edu-vic-wa-nt-<beginner-uniquifier> {          /* LETRA BOTÓN MÁS INFO */
@@ -108,6 +108,10 @@ body {
     text-align: center;
     color: rgb(101, 7, 7)5, 23, 23);
     padding: 20px 0 20px 0;
+}
+
+.small_pp {
+    text-align: center;
 }
 
 .contenedor_imagen_final{
@@ -210,14 +214,31 @@ footer {
                                                                                                          /*       ARCH. INFO_EXTRA          */ 
 
 .contenedor_img_pers_sanrio {
-    display: flex;  /* PARAB HACER FLEXIBLE LA IMAGEN */
+    display: flex;                                   /* PARA HACER FLEXIBLE LA IMAGEN */
     justify-content: center;
 }
 
 .img_pers_sanrio {
     height: 400px;
     width: 800px;
+    border-radius: 2%;
+    border: 2px solid #e40c6d;
 }
+
+.contenedor_img_yuko_ya {
+    display: flex;                                  /* PARA HACER FLEXIBLE LA IMAGEN */
+    justify-content: center; 
+    ju   
+}
+
+.img_yuko_ya {
+    height: 200px;
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid #0b0618;
+}
+
+
 
                                                                                                          /*       ARCH. POMPOMPURIN          */ 
 .bton_regreso_inicio {
@@ -360,6 +381,15 @@ h1 {
     width: 100%;               /* ancho de la imagen */
 }
 
+.contenedor_img_ranking_c {
+    display: flex;
+    justify-content: center;
+} 
+
+.img_ranking_c {
+    height: 400px;               /* altura de la imagen */
+    width: 500px;               /* ancho de la imagen */
+}
                                                                                                          /*       ARCH. MY MELODY          */ 
 .contenedor1_m {
    background-color: rgb(255, 133, 182);
