@@ -373,3 +373,28 @@ h1 {
     width: 100%;               /* ancho de la imagen */
 }
 
+                                                                                                         /*       ARCH. POCHACCO          */ 
+.contenedor1_po {
+   background-color: rgb(255, 204, 133);
+   border: 1px solid rgb(199, 116, 22);
+   width: 100%;
+   display: flex;
+   justify-content: right;
+   align-items: center;
+}
+
+.imag_per_po {
+   height: 250px;
+   width: 350px;
+   margin-right: 90px;
+}
+
+.imagen_po {
+    height: 350px;
+    width: 300px;
+}
+
+.imagen_ranking_po{
+    height: 350px;
+    width: 420px;
+}
