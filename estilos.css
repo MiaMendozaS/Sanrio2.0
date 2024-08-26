@@ -211,14 +211,11 @@ footer {
     background-color: #8a70cb;
 }
 
-                                                                                                                                    /*             ARC.KEROPI            */
-
-
+                                                                                                         /*       ARCH. POMPOMPURIN          */ 
 .bton_regreso_inicio {
     color: #FBB9C5;
     text-decoration: none;
 }
-
 
 .pompiere-regular {
     font-family: "Pompiere", sans-serif;
@@ -226,12 +223,12 @@ footer {
     font-style: normal;
   }
 
-  h1 {
+h1 {
     font-family: "Pompiere";
     font-size: 60px;
   }
 
-.contenedor1 {
+.contenedor1_p {
     background-color: gold;
     border: 1px solid rgb(180, 154, 4);
     width: 100%;
@@ -246,7 +243,7 @@ footer {
     padding: 0;
 }
 
-.imag_per {
+.imag_per_p {
     height: 220px;
     width: 200px;
     margin-right: 100px;
@@ -256,8 +253,43 @@ footer {
     text-align: center;
     padding: 0;
 }
-.imagen_amigos {
+.imagen_amigos_p {
     height: 140px;    /* largo */
     width: 200px;     /* ancho */    
 }
-.
+
+                                                                                                         /*       ARCH. KEROPPI          */ 
+
+.contenedor1_k {
+    background-color: greenyellow;
+    border: 1px solid rgb(60, 180, 4);
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.contenedor2 {
+    margin-right: 100px;
+    text-align: center;
+    padding: 0;
+}
+
+.imag_per_k {
+    height: 200px;
+    width: 210px;
+    margin-right: 100px;
+    /*  padding-right: 200px; */
+}
+.contenedor_img_cen {
+    text-align: center;
+    padding: 0;
+}
+.imagen_amigos_k {
+    height: 140px;    /* largo */
+    width: 200px;     /* ancho */    
+}
+                                                                                                        
+
+
+
