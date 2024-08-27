@@ -238,7 +238,10 @@ footer {
     border: 1px solid #0b0618;
 }
 
-
+.contenedor_e_incrustados {
+    display: flex;
+    justify-content: center;
+}
 
                                                                                                          /*       ARCH. POMPOMPURIN          */ 
 .bton_regreso_inicio {
@@ -286,7 +289,6 @@ h1 {
     height: 140px;    /* largo */
     width: 200px;     /* ancho */    
 }
-
                                                                                                          /*       ARCH. KEROPPI          */ 
 
 .contenedor1_k {
@@ -335,6 +337,12 @@ h1 {
 .img_producto_hk {
     height: 290px;
     width: 350px;
+}
+
+.contenedor_pdf {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap; /* CUANDO EL CONTENIDO SE SOBRESALGA DE LA VENTANA, SE ACOMODA ABAJO */
 }
 
                                                                                                          /*       ARCH. CINNAMOROLL          */ 
@@ -434,5 +442,12 @@ h1 {
 
 .imagen_ranking_po{
     height: 350px;
-    width: 420px;
+    width: 400px;
+}
+
+
+                                                                                                         /*       ARCH. TIENDA          */ 
+.img_lis_pro{
+    height: 190px;               /* altura de la imagen */
+    width: 150px;
 }
